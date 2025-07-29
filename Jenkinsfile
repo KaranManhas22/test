@@ -13,7 +13,7 @@ pipeline{
 stage('Repository checking'){
   steps{
     echo 'Cloning the git_repo'
-    git branch:'main' , url:'https://github.com/KaranManhas22/backend.git'
+    git branch:'main' , url:'https://github.com/KaranManhas22/test.git'
   }
 
 }
