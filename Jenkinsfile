@@ -29,7 +29,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deployment stage (add your deploy steps here)...'
-                sh 'nohup npm start & disown'
+                sh 'npm start'
             }
         }
     }
